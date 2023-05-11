@@ -17,12 +17,15 @@ let userBestColor=prompt("insert your favorite color");
 //La prompt dell' utente è una stringa e va trasformata in un intero per sommarla con 10//
 
 let userRandomNumber= parseInt(prompt("Insert a number, we will add + 10"));
+console.log(typeof(userRandomNumber));
 
 userRandomNumber=(userRandomNumber+10);
+console.log(typeof(userRandomNumber));
 
 //Creo la variabile che sarà la nuova password
 
 let userNewPassword= userName + userSurname + userBestColor + userRandomNumber; 
+console.log(typeof(userRandomNumber));
 
 // stampo la variabile tramite il suo ID
 
